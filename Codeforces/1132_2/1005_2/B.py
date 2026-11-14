@@ -1,4 +1,3 @@
-#https://chatgpt.com/g/g-k3IqoCe1l-code/c/6af565b0-d570-83ee-b102-79d57fa7c9b5
 t = int(input())
 
 for _ in range(t):
