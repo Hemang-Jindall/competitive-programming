@@ -1,0 +1,18 @@
+t = int(input())
+
+for i in range(t):
+    n = int(input())
+    init_array = list(map(int, input().split()))
+    odd_mismatch = 0
+    even_mismatch = 0
+    for i in range(n):
+        if i % 2 == 0:
+            if init_array[i] % 2 != 0:
+                even_mismatch +=1
+        elif i % 2!= 0:
+            if init_array[i] % 2 == 0:
+                odd_mismatch +=1
+    if even_mismatch != odd_mismatch:
+        print("-1")
+    else:
+        print(odd_mismatch)
